@@ -13,8 +13,8 @@ export default function Home() {
             <Image
               src="/imagens/Logo horizontal.png"
               alt="Zona de Economia"
-              width={280}
-              height={100}
+              width={504}
+              height={180}
               className="drop-shadow-2xl"
               priority
             />
