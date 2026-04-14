@@ -7,9 +7,9 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section - Fundo Rosa */}
       <header className="bg-[#F9098A]">
-        <div className="max-w-4xl mx-auto px-4 py-16 sm:py-24 text-center">
+        <div className="max-w-4xl mx-auto px-4 py-10 sm:py-16 text-center">
           {/* Logo */}
-          <div className="mb-8 flex justify-center">
+          <div className="mb-4 flex justify-center">
             <Image
               src="/imagens/Logo horizontal.png"
               alt="Zona de Economia"
