@@ -15,6 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Zona de Economia - Melhores Ofertas e Descontos Online",
   description: "Encontre as melhores ofertas e achados online! Promoções exclusivas de roupas, acessórios, itens para casa e muito mais. Lojas confiáveis e preços imperdíveis.",
+  openGraph: {
+    title: "Zona de Economia - Melhores Ofertas e Descontos Online",
+    description: "Encontre as melhores ofertas e achados online! Promoções exclusivas de roupas, acessórios, itens para casa e muito mais.",
+    images: ["/imagens/logo.png"],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
