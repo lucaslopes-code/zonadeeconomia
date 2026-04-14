@@ -11,7 +11,7 @@ export default function Home() {
           {/* Logo */}
           <div className="mb-6 flex justify-center">
             <Image
-              src="/imagens/logo horizontal.png"
+              src="/imagens/logo.png"
               alt="Zona de Economia"
               width={350}
               height={100}
