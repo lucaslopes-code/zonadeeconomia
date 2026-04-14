@@ -64,66 +64,49 @@ export default function Home() {
 
       {/* Benefits Section - Fundo Cinza Claro */}
       <section className="bg-[#FAFAFA] py-16 sm:py-24">
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-2xl sm:text-4xl font-bold text-center text-black mb-12">
             O que você vai encontrar no grupo?
           </h2>
 
-          <div className="grid sm:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-100">
-              <div className="w-12 h-12 bg-[#F9098A] rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-bold text-[#F9098A] mb-2">
-                Promoções Exclusivas
-              </h3>
-              <p className="text-gray-600">
-                Descontos especiais que você não encontra em nenhum outro lugar
-              </p>
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            {/* Mockup Celular */}
+            <div className="flex justify-center">
+              <Image
+                src="/imagens/mockup celular.png"
+                alt="Mockup do grupo no celular"
+                width={350}
+                height={700}
+                className="drop-shadow-2xl"
+              />
             </div>
 
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-100">
-              <div className="w-12 h-12 bg-[#F9098A] rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+            {/* Checklist */}
+            <div className="space-y-5">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">✅</span>
+                <p className="text-lg text-gray-700">Promoções exclusivas e descontos especiais todos os dias</p>
               </div>
-              <h3 className="text-lg font-bold text-[#F9098A] mb-2">
-                Produtos de Qualidade
-              </h3>
-              <p className="text-gray-600">
-                Dicas de produtos incríveis a preços super acessíveis
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-100">
-              <div className="w-12 h-12 bg-[#F9098A] rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">✅</span>
+                <p className="text-lg text-gray-700">Dicas de produtos de qualidade a preços acessíveis</p>
               </div>
-              <h3 className="text-lg font-bold text-[#F9098A] mb-2">
-                Novidades Diárias
-              </h3>
-              <p className="text-gray-600">
-                Moda, decoração, brinquedos e itens essenciais atualizados todo dia
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-2xl shadow-md border border-gray-100">
-              <div className="w-12 h-12 bg-[#F9098A] rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">✅</span>
+                <p className="text-lg text-gray-700">Novidades em moda, decoração, brinquedos e itens essenciais</p>
               </div>
-              <h3 className="text-lg font-bold text-[#F9098A] mb-2">
-                Lojas Confiáveis
-              </h3>
-              <p className="text-gray-600">
-                Garantia de compras seguras em lojas verificadas e confiáveis
-              </p>
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">✅</span>
+                <p className="text-lg text-gray-700">Lojas oficiais e 100% confiáveis</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">✅</span>
+                <p className="text-lg text-gray-700">Cupons de desconto exclusivos para membros</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">✅</span>
+                <p className="text-lg text-gray-700">Alertas de ofertas relâmpago antes de acabar</p>
+              </div>
             </div>
           </div>
         </div>
