@@ -151,9 +151,9 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1a1a1a] py-8">
+      <footer className="bg-[#FAFAFA] py-8">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-white/60">
+          <p className="text-black/60">
             ©2026 Zona de Economia - Todos os direitos reservados.
           </p>
         </div>
