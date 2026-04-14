@@ -174,17 +174,17 @@ export default function Home() {
             <div className="bg-white p-6 rounded-2xl shadow-lg">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-[#F9098A] rounded-full flex items-center justify-center text-white font-bold text-lg">
-                  C
+                  R
                 </div>
                 <div>
-                  <p className="font-bold text-gray-800">Carla Mendes</p>
+                  <p className="font-bold text-gray-800">Rafael Costa</p>
                   <div className="flex text-yellow-400">
                     <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
                   </div>
                 </div>
               </div>
               <p className="text-gray-600">
-                &ldquo;Obrigada pelas dicas! Comprei vários acessórios com preços absurdos de bons. Todas as lojas são confiáveis mesmo!&rdquo;
+                &ldquo;Obrigado pelas dicas! Comprei vários acessórios com preços absurdos de bons. Todas as lojas são oficiais e confiáveis mesmo!&rdquo;
               </p>
             </div>
           </div>
