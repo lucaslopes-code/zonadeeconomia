@@ -125,7 +125,7 @@ export default function Home() {
                 alt="Mockup do grupo no celular"
                 width={400}
                 height={800}
-                className="drop-shadow-2xl w-auto h-auto max-w-[250px] sm:max-w-[300px] md:max-w-[400px]"
+                className="drop-shadow-2xl w-full max-w-none sm:max-w-[400px] md:max-w-[450px]"
               />
             </div>
           </div>
