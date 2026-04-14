@@ -105,7 +105,7 @@ export default function Home() {
                 Chega de cair em furada ou perder horas procurando promoção. Entre agora no grupo e receba os melhores achados direto no seu WhatsApp!
               </p>
 
-              <div className="flex justify-center md:justify-start">
+              <div className="flex justify-center">
                 <a
                   href={whatsappLink}
                   className="btn-pulse inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-green-500 to-green-700 text-white font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-xl hover:from-green-600 hover:to-green-800 transition-all duration-300"
