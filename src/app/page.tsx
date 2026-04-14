@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
-  const whatsappLink = "#"; // Substitua pelo link do grupo do WhatsApp
+  const whatsappLink = "https://chat.whatsapp.com/FnQ5WhQquuAFsNtynRvZ1u";
 
   return (
     <div className="min-h-screen">
