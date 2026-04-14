@@ -68,7 +68,7 @@ export default function Home() {
           <div className="flex flex-col md:grid md:grid-cols-2 gap-8 md:gap-10 items-center">
             {/* Conteúdo - Aparece primeiro no mobile */}
             <div className="text-center md:text-left order-1">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8 text-center md:text-left">
                 <span className="text-black">O que você vai encontrar</span><br />
                 <span className="text-[#F9098A]">no grupo?</span>
               </h2>
