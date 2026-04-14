@@ -62,8 +62,8 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Benefits Section - Fundo Escuro */}
-      <section className="bg-[#0f172a] py-16 sm:py-24">
+      {/* Benefits Section - Fundo Cinza Claro */}
+      <section className="bg-[#FAFAFA] py-16 sm:py-24">
         <div className="max-w-5xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-10 items-center">
             {/* Mockup Celular */}
@@ -71,8 +71,8 @@ export default function Home() {
               <Image
                 src="/imagens/mockup celular.png"
                 alt="Mockup do grupo no celular"
-                width={320}
-                height={650}
+                width={400}
+                height={800}
                 className="drop-shadow-2xl"
               />
             </div>
@@ -80,7 +80,7 @@ export default function Home() {
             {/* Conteúdo */}
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold mb-8">
-                <span className="text-white">O que você vai encontrar</span><br />
+                <span className="text-black">O que você vai encontrar</span><br />
                 <span className="text-[#F9098A]">no grupo?</span>
               </h2>
 
@@ -90,29 +90,29 @@ export default function Home() {
                   <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <p className="text-lg text-white">Promoções exclusivas e descontos de até 70% OFF</p>
+                  <p className="text-lg text-gray-700">Promoções exclusivas e descontos de até 70% OFF</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <p className="text-lg text-white">Cupons de desconto que funcionam de verdade</p>
+                  <p className="text-lg text-gray-700">Cupons de desconto que funcionam de verdade</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <p className="text-lg text-white">Achados com os melhores preços do Mercado Livre, Shopee e Amazon</p>
+                  <p className="text-lg text-gray-700">Achados com os melhores preços do Mercado Livre, Shopee e Amazon</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <p className="text-lg text-white">Só produtos de vendedores confiáveis, com garantia e entrega rápida</p>
+                  <p className="text-lg text-gray-700">Só produtos de vendedores confiáveis, com garantia e entrega rápida</p>
                 </div>
               </div>
 
-              <p className="text-gray-300 mb-6">
+              <p className="text-gray-600 mb-6">
                 Chega de cair em furada ou perder horas procurando promoção. Entre agora no grupo e receba os melhores achados direto no seu WhatsApp!
               </p>
 
