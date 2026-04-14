@@ -10,14 +10,16 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 py-10 sm:py-16 text-center">
           {/* Logo */}
           <div className="mb-4 flex justify-center">
-            <Image
-              src="/imagens/Logo horizontal.png"
-              alt="Zona de Economia"
-              width={504}
-              height={180}
-              className="drop-shadow-2xl"
-              priority
-            />
+            <div className="h-[80px] overflow-hidden flex items-center">
+              <Image
+                src="/imagens/Logo horizontal.png"
+                alt="Zona de Economia"
+                width={400}
+                height={180}
+                className="drop-shadow-2xl object-contain"
+                priority
+              />
+            </div>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white mb-6 leading-tight">
