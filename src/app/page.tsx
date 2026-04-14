@@ -9,13 +9,13 @@ export default function Home() {
       <header className="bg-[#F9098A]">
         <div className="max-w-4xl mx-auto px-4 py-10 sm:py-16 text-center">
           {/* Logo */}
-          <div className="mb-4 flex justify-center">
+          <div className="mb-6 flex justify-center">
             <Image
               src="/imagens/logo horizontal.png"
               alt="Zona de Economia"
-              width={400}
-              height={120}
-              className="drop-shadow-2xl"
+              width={350}
+              height={100}
+              className="drop-shadow-2xl w-auto h-auto max-w-[350px]"
               priority
             />
           </div>
