@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Zona de Economia - Melhores Ofertas e Descontos Online",
     description: "Encontre as melhores ofertas e achados online! Promoções exclusivas de roupas, acessórios, itens para casa e muito mais.",
-    images: ["/imagens/logo.png"],
+    images: ["/imagens/Flav icon.png"],
     type: "website",
   },
 };
